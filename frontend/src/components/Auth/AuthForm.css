@@ -1,0 +1,40 @@
+.auth-form{
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.auth-form-container {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #ccc, -5px -5px 15px #fff;
+    background-color: beige; 
+    height:70vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.auth-toggle {
+  text-align: center;
+  margin-top: 5px;
+  color: #666;
+  width: 100%;
+  padding: 5px;
+}
+
+.auth-toggle button {
+  background: none;
+  border: none;
+  color: #ff6464;
+  cursor: pointer;
+  font-size: inherit;
+  padding: 0;
+  text-decoration: underline;
+}
