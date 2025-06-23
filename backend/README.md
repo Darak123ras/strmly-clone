@@ -6,3 +6,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 npm install @google-cloud/storage firebase-admin
 
 npm install cloudinary multer-storage-cloudinary
+
+MongoDB:
+Network Access: add a network for temprory
+0.0.0.0/0 
