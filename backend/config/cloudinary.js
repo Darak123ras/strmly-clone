@@ -15,10 +15,6 @@ cloudinary.config({
   secure: true
 });
 
-// Test connection (optional)
-// cloudinary.api.ping()
-//   .then(result => console.log('Cloudinary connected:', result))
-//   .catch(err => console.error('Cloudinary connection failed:', err));
 
 module.exports = cloudinary;
 
